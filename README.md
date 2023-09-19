@@ -15,7 +15,7 @@ There are six levels in the heading tag in HTML. They have decreasing order of i
 ### `<sub>`: The Subscript element
 The `<sub>` HTML element specifies inline text which should be displayed as subscript for solely typographical reasons. Subscripts are typically rendered with a lowered baseline using smaller text.
 
-```html
+```
 <p>
   Almost every developer's favorite molecule is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>, also known as
   "caffeine."
@@ -24,8 +24,9 @@ The `<sub>` HTML element specifies inline text which should be displayed as subs
 
 ### <sup>: The Superscript element
 The <sup> HTML element specifies inline text which is to be displayed as superscript for solely typographical reasons. Superscripts are usually rendered with a raised baseline using smaller text.
-html```
-<p>The <em>Pythagorean theorem</em> is often expressed as the following equation:</p>```
+```
+<p>The <em>Pythagorean theorem</em> is often expressed as the following equation:</p>
+```
 
 
 

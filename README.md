@@ -23,17 +23,18 @@ The <sub> HTML element specifies inline text which should be displayed as subscr
 - `<sup>`: The Superscript element
 The <sup> HTML element specifies inline text which is to be displayed as superscript for solely typographical reasons. Superscripts are usually rendered with a raised baseline using smaller text.
 ```html
-`<p>The <em>Pythagorean theorem</em> is often expressed as the following equation:</p>`
+<p>The <em>Pythagorean theorem</em> is often expressed as the following equation:</p>
 
 
 
 ## 4-When using the `<abbr>` element, what attribute must be added to provide the full expansion of the term?
 - `<abbr>:` The Abbreviation element The <abbr> HTML element represents an abbreviation or acronym.
- `<p>
+```html
+<p>
   You can use <abbr>CSS</abbr> (Cascading Style Sheets) to style your <abbr>HTML</abbr> (HyperText Markup Language).
   Using style sheets, you can keep your <abbr>CSS</abbr> presentation layer and <abbr>HTML</abbr> content layer
   separate. This is called "separation of concerns."
- </p>`
+ </p>
 
 ### Learn CSS
 ## 1-What are ways we can apply CSS to our HTML?

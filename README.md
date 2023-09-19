@@ -14,6 +14,7 @@ There are six levels in the heading tag in HTML. They have decreasing order of i
 ## 3-What are some uses for the <sup> and <sub> elements?
 - `<sub>`: The Subscript element
 The <sub> HTML element specifies inline text which should be displayed as subscript for solely typographical reasons. Subscripts are typically rendered with a lowered baseline using smaller text.
+
 <p>
   Almost every developer's favorite molecule is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>, also known as
   "caffeine."
@@ -24,9 +25,7 @@ The <sup> HTML element specifies inline text which is to be displayed as supersc
 
 <p>The <em>Pythagorean theorem</em> is often expressed as the following equation:</p>
 
-<p>
-  <var>a<sup>2</sup></var> + <var>b<sup>2</sup></var> = <var>c<sup>2</sup></var>
-</p>
+
 
 ## 4-When using the `<abbr>` element, what attribute must be added to provide the full expansion of the term?
 - `<abbr>:` The Abbreviation element The <abbr> HTML element represents an abbreviation or acronym.

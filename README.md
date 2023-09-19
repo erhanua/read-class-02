@@ -180,14 +180,13 @@ A retail store wants to calculate the total price of items after applying a disc
 Solution with a JavaScript Function:
 We can create a function called calculateDiscountedPrice that takes in the original price of an item and the discount percentage, then returns the discounted price.
 
-javascript
-Copy code
+```
 function calculateDiscountedPrice(originalPrice, discountPercentage) {
     let discountAmount = originalPrice * (discountPercentage / 100);
     let discountedPrice = originalPrice - discountAmount;
     return discountedPrice;
 }
-
+```
 // Example usage:
 ```
 let originalPrice = 100; // $100

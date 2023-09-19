@@ -142,7 +142,127 @@ The components that are considered properties are:
  - **color**
 - **padding**
 
+  
+
 ### LEARN JS
+## 1-What data type is a sequence of text enclosed in single quote marks?
+A sequence of text enclosed in single quote marks (' ') is considered a string data type in JS.
+## 2-List 4 types of JavaScript operators.
+Here are four types of JavaScript operators:
+
+Arithmetic Operators: These are used to perform mathematical operations.
+
++ (Addition)
+- (Subtraction)
+* (Multiplication)
+/ (Division)
+Comparison Operators: These are used to compare two values.
+
+== (Equal to)
+!= (Not equal to)
+> (Greater than)
+< (Less than)
+Logical Operators: These are used to determine the logic between variables or values.
+
+&& (Logical AND)
+|| (Logical OR)
+! (Logical NOT)
+Assignment Operators: These are used to assign values to variables.
+
+= (Assign)
++= (Add and assign)
+-= (Subtract and assign)
+*= (Multiply and assign)
+## 3-Describe a real world Problem you could solve with a Function.
+Problem:
+A retail store wants to calculate the total price of items after applying a discount. The store often has sales where they offer different percentage discounts on items, and they need a quick way to determine the final price after the discount.
+
+Solution with a JavaScript Function:
+We can create a function called calculateDiscountedPrice that takes in the original price of an item and the discount percentage, then returns the discounted price.
+
+javascript
+Copy code
+function calculateDiscountedPrice(originalPrice, discountPercentage) {
+    let discountAmount = originalPrice * (discountPercentage / 100);
+    let discountedPrice = originalPrice - discountAmount;
+    return discountedPrice;
+}
+
+// Example usage:
+let originalPrice = 100; // $100
+let discountPercentage = 20; // 20% off
+let finalPrice = calculateDiscountedPrice(originalPrice, discountPercentage);
+console.log(`The final price after a ${discountPercentage}% discount is: $${finalPrice}`);
+This function can be used by the store's point-of-sale system or on their website to quickly calculate and display discounted prices during sales. It simplifies the process and ensures consistent and accurate calculations.
+
+### Making Decisions In Your Code – Conditionals.
+
+## 1-An if statement checks a __ and if it evaluates to ___, then the code block will execute.
+
+An if statement checks a `boolean value` and only executes a block of code if that value is `true`.
+
+## 2-What is the use of an else if?
+
+The `else if` statement in programming is used to introduce an additional condition to an `if` statement. It allows for multiple conditions to be checked in a sequential manner. Here's how it's used:
+
+- The `if` statement checks its condition first.
+- If the `if` condition is `false`, the program will then check the condition of the subsequent `else if` statement.
+- If the `else if` condition is also `false`, the program can check another `else if` condition (if provided), and so on.
+- If none of the conditions are `true`, an optional `else` block can be executed.
+
+The primary use of `else if` is to handle multiple, distinct conditions in a clear and organized manner. It allows for more specific control flow in a program.
+
+## 3-List 3 different types of comparison operators.
+
+- **Equal to (`==`)**:
+  - Compares two values for equality.
+  - Returns `true` if the values are equal, even if they are of different data types (due to type coercion).
+  - Example: `5 == "5"` would return `true`.
+
+- **Strictly equal to (`===`)**:
+  - Compares two values for equality, taking into account both value and data type.
+  - Returns `true` only if the values and their data types are the same.
+  - Example: `5 === "5"` would return `false`.
+
+- **Not equal to (`!=`)**:
+  - Compares two values for inequality.
+  - Returns `true` if the values are not equal.
+  - Example: `5 != 6` would return `true`.
+
+There are other comparison operators as well, such as `>`, `<`, `>=`, `<=`, and `!==`, but the above three are among the most commonly used.
+
+## 4-What is the difference between the logical operator `&&` and `||`?
+
+The logical operators `&&` and `||` are used to combine multiple conditions in JavaScript (and many other programming languages). Here's the difference between the two:
+
+- **Logical AND (`&&`)**:
+  - Returns `true` if both operands are `true`.
+  - If the first operand is `false`, it short-circuits and doesn't evaluate the second operand.
+  - Example:
+    ```javascript
+    true && true   // Returns true
+    true && false  // Returns false
+    false && true  // Returns false (second operand is not evaluated)
+    false && false // Returns false
+    ```
+
+- **Logical OR (`||`)**:
+  - Returns `true` if at least one of the operands is `true`.
+  - If the first operand is `true`, it short-circuits and doesn't evaluate the second operand.
+  - Example:
+    ```javascript
+    true || true   // Returns true
+    true || false  // Returns true
+    false || true  // Returns true
+    false || false // Returns false
+    ```
+
+
+
+
+
+
+
 
 
 

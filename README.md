@@ -189,10 +189,12 @@ function calculateDiscountedPrice(originalPrice, discountPercentage) {
 }
 
 // Example usage:
+```
 let originalPrice = 100; // $100
 let discountPercentage = 20; // 20% off
 let finalPrice = calculateDiscountedPrice(originalPrice, discountPercentage);
 console.log(`The final price after a ${discountPercentage}% discount is: $${finalPrice}`);
+```
 This function can be used by the store's point-of-sale system or on their website to quickly calculate and display discounted prices during sales. It simplifies the process and ensures consistent and accurate calculations.
 
 ### Making Decisions In Your Code – Conditionals.

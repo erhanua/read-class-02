@@ -49,7 +49,7 @@ The `<sup>` HTML element specifies inline text which is to be displayed as super
 - **Inline Styles**
   Directly applied to individual HTML elements using the style attribute.
 ```
-<p <strong><em>style<strong><em><strong>"color: blue;">This is a blue text.</p>
+<p <strong>style</strong>="color: blue;">This is a blue text.</p>
 ```
  - **Internal Styles**
    Placed within the <style> tags in the <head> section of an HTML document.

@@ -15,25 +15,25 @@ There are six levels in the heading tag in HTML. They have decreasing order of i
 - `<sub>`: The Subscript element
 The <sub> HTML element specifies inline text which should be displayed as subscript for solely typographical reasons. Subscripts are typically rendered with a lowered baseline using smaller text.
 
-<p>
+`<p>
   Almost every developer's favorite molecule is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>, also known as
   "caffeine."
-</p>
+</p>`
 
 - `<sup>`: The Superscript element
 The <sup> HTML element specifies inline text which is to be displayed as superscript for solely typographical reasons. Superscripts are usually rendered with a raised baseline using smaller text.
 
-<p>The <em>Pythagorean theorem</em> is often expressed as the following equation:</p>
+`<p>The <em>Pythagorean theorem</em> is often expressed as the following equation:</p>`
 
 
 
 ## 4-When using the `<abbr>` element, what attribute must be added to provide the full expansion of the term?
 - `<abbr>:` The Abbreviation element The <abbr> HTML element represents an abbreviation or acronym.
- <p>
+ `<p>
   You can use <abbr>CSS</abbr> (Cascading Style Sheets) to style your <abbr>HTML</abbr> (HyperText Markup Language).
   Using style sheets, you can keep your <abbr>CSS</abbr> presentation layer and <abbr>HTML</abbr> content layer
   separate. This is called "separation of concerns."
- </p>
+ </p>`
 
 ### Learn CSS
 ## 1-What are ways we can apply CSS to our HTML?

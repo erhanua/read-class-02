@@ -188,7 +188,7 @@ function calculateDiscountedPrice(originalPrice, discountPercentage) {
     let discountedPrice = originalPrice - discountAmount;
     return discountedPrice;
 }
-
+```
 
 ### Making Decisions In Your Code – Conditionals.
 

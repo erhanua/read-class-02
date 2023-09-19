@@ -148,53 +148,47 @@ The components that are considered properties are:
 ## 1-What data type is a sequence of text enclosed in single quote marks?
 A sequence of text enclosed in single quote marks (' ') is considered a string data type in JS.
 ## 2-List 4 types of JavaScript operators.
+
 Here are four types of JavaScript operators:
 
-Arithmetic Operators: These are used to perform mathematical operations.
+- **Arithmetic Operators**: These are used to perform mathematical operations.
+  - `+` (Addition)
+  - `-` (Subtraction)
+  - `*` (Multiplication)
+  - `/` (Division)
 
-+ (Addition)
-- (Subtraction)
-* (Multiplication)
-/ (Division)
-Comparison Operators: These are used to compare two values.
+- **Comparison Operators**: These are used to compare two values.
+  - `==` (Equal to)
+  - `!=` (Not equal to)
+  - `>` (Greater than)
+  - `<` (Less than)
 
-== (Equal to)
-!= (Not equal to)
-> (Greater than)
-< (Less than)
-Logical Operators: These are used to determine the logic between variables or values.
+- **Logical Operators**: These are used to determine the logic between variables or values.
+  - `&&` (Logical AND)
+  - `||` (Logical OR)
+  - `!` (Logical NOT)
 
-&& (Logical AND)
-|| (Logical OR)
-! (Logical NOT)
-Assignment Operators: These are used to assign values to variables.
+- **Assignment Operators**: These are used to assign values to variables.
+  - `=` (Assign)
+  - `+=` (Add and assign)
+  - `-=` (Subtract and assign)
+  - `*=` (Multiply and assign)
 
-= (Assign)
-+= (Add and assign)
--= (Subtract and assign)
-*= (Multiply and assign)
 ## 3-Describe a real world Problem you could solve with a Function.
-Problem:
+
+**Problem**:
 A retail store wants to calculate the total price of items after applying a discount. The store often has sales where they offer different percentage discounts on items, and they need a quick way to determine the final price after the discount.
 
-Solution with a JavaScript Function:
-We can create a function called calculateDiscountedPrice that takes in the original price of an item and the discount percentage, then returns the discounted price.
+**Solution with a JavaScript Function**:
+We can create a function called `calculateDiscountedPrice` that takes in the original price of an item and the discount percentage, then returns the discounted price.
 
-```
+```javascript
 function calculateDiscountedPrice(originalPrice, discountPercentage) {
     let discountAmount = originalPrice * (discountPercentage / 100);
     let discountedPrice = originalPrice - discountAmount;
     return discountedPrice;
 }
-```
-// Example usage:
-```
-let originalPrice = 100; // $100
-let discountPercentage = 20; // 20% off
-let finalPrice = calculateDiscountedPrice(originalPrice, discountPercentage);
-console.log(`The final price after a ${discountPercentage}% discount is: $${finalPrice}`);
-```
-This function can be used by the store's point-of-sale system or on their website to quickly calculate and display discounted prices during sales. It simplifies the process and ensures consistent and accurate calculations.
+
 
 ### Making Decisions In Your Code – Conditionals.
 

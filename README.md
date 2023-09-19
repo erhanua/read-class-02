@@ -29,12 +29,12 @@ The <sup> HTML element specifies inline text which is to be displayed as supersc
 </p>
 
 ## 4-When using the `<abbr>` element, what attribute must be added to provide the full expansion of the term?
-`<abbr>:` The Abbreviation element The <abbr> HTML element represents an abbreviation or acronym.
-<p>
+- `<abbr>:` The Abbreviation element The <abbr> HTML element represents an abbreviation or acronym.
+ <p>
   You can use <abbr>CSS</abbr> (Cascading Style Sheets) to style your <abbr>HTML</abbr> (HyperText Markup Language).
   Using style sheets, you can keep your <abbr>CSS</abbr> presentation layer and <abbr>HTML</abbr> content layer
   separate. This is called "separation of concerns."
-</p>
+ </p>
 
 ### Learn CSS
 ## 1-What are ways we can apply CSS to our HTML?

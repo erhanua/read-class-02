@@ -48,10 +48,13 @@ The `<sup>` HTML element specifies inline text which is to be displayed as super
 ## 1-What are ways we can apply CSS to our HTML?
 - **Inline Styles**
   Directly applied to individual HTML elements using the style attribute.
- ` <p style="color: blue;">This is a blue text.</p>`
+```
+<p style="color: blue;">This is a blue text.</p>
+```
  - **Internal Styles**
    Placed within the <style> tags in the <head> section of an HTML document.
-  ` <head>
+  ```
+ <head>
   <style>
     p {
       color: red;
@@ -60,13 +63,16 @@ The `<sup>` HTML element specifies inline text which is to be displayed as super
 </head>
 <body>
   <p>This is a red text.</p>
-</body>`
+</body>
+```
 - **External Styles**
 CSS rules are placed in a separate .css file.
 This file is then linked to the HTML document using the <link> tag.
-`<head>
+```
+<head>
   <link rel="stylesheet" href="styles.css">
-</head>`
+</head>
+```
 
 ## 2-Why should we avoid using inline styles?
 The build-up of the inline CSS styles often translates into code duplication, making the project harder to maintain when the same style needs to be changed in several places. The same applies to the inline JavaScript snippets, as they cannot be reused across Screens or Web Blocks.
